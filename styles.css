@@ -1,0 +1,31 @@
+/* Imports */
+@import url('https://fonts.googleapis.com/css2?family=Dancing+Script:wght@700&display=swap');
+
+/* Master Styles */
+
+html {
+ height: 100%;
+ width: 100%;
+}
+
+body {
+    margin: 0;
+    height: 100%;
+    width: 100%;
+    background-image: url(assets/Merry\ Christmas\(1\).png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+}
+
+/* Main */
+
+.title {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #ffffff;
+    font-size: 8vw;
+    font-family: 'Dancing Script', cursive;
+    font-weight: 700;
+    min-height: 100vh;
+}
